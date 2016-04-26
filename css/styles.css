@@ -1,0 +1,222 @@
+
+
+.election-text {
+	font-family: arial;
+	font-weight: 800;
+	line-height: 30%;
+	text-align: center;
+	font-size: 32px;
+}
+
+.complete-election-text {
+	margin-top: 75px;
+}
+
+
+#election-button {
+	width: 225px;
+	height: 225px;
+	border: 5px solid black;
+	-moz-border-radius: 125px;
+	-webkit-border-radius: 125px;
+	border-radius: 125px;
+}
+
+.buy-button {
+	width: 180px;
+	height: 30px;
+	border: 3px solid black;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10;
+}
+
+
+#election-button, .buy-button {
+	overflow-x: scroll;
+    margin: 0;
+    position: absolute;
+    top: 180px;
+    left: 50%;
+    right: -50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    display: block;
+	white-space: nowrap;
+}
+
+#buy-button-text {
+	font-family: arial;
+	font-weight: 800;
+	text-align: center;
+	font-size: 24px;
+	margin-top: 2px;
+}
+
+
+.buy-button {
+	top: 360px;
+	box-shadow: 0 0 20px 2px rgba(0,0,0,0.3);
+	transition: box-shadow 0.3s ease-in-out;
+	position: absolute;
+}
+
+.buy-button:hover {
+  box-shadow: 0 0 20px 5px rgba(0,0,0,0.4);
+/*  width: 184.5px;
+  height: 30.75px;
+
+  transform: scale(1.05, 1.05);*/
+}
+
+/*.buy-button:hover #buy-button-text {
+	font-size: 24.6px;
+	margin-top: 2.05px;
+}
+*/
+
+
+
+
+#about-link, #out-and-about-link {
+	margin-top: 500px;
+	font-size: 22px;
+	font-weight: 650;
+	opacity: 0.5;
+}
+
+#about-link{
+	float: left;
+	margin-left: 40px;
+}
+
+#out-and-about-link{
+	float: right;
+	margin-right: 40px;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+#about-link > a:before {
+  content: "";
+  position: absolute;
+  width: 77px;
+  height: 2px;
+  top: 523px;
+  left: 39px;
+  background-color: #000;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+#about-link > a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+
+#out-and-about-link > a:before {
+  content: "";
+  position: absolute;
+  width: 148px;
+  height: 2px;
+  top: 523px;
+  right: 41px;
+  background-color: #000;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+#out-and-about-link > a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+
+
+/*
+/////////////////////
+/////ABOUT PAGE/////
+///////////////////
+*/
+
+
+
+.about-page-text {
+	text-align: center;
+}
+
+#ike, #nixon {
+	font-style: italic;
+}
+
+#ike {
+	margin-top: 40px;
+}
+
+#nixon {
+	margin-bottom: 40px;
+}
+
+.explanation {
+	font-size: 20px;
+	line-height: 50%;
+}
+
+#we-do {
+	margin-top: 40px;
+	font-size: 36px;
+	font-weight: 800;
+}
+
+
+.movement {
+	line-height: 60%;
+	font-size: 20px;
+	margin-bottom: 50px;
+}
+
+
+.clean-stuff {
+	width: 225px;
+	height: 225px;
+	border: 5px solid black;
+	-moz-border-radius: 225px;
+	-webkit-border-radius: 225px;
+	border-radius: 225px;
+	overflow-x: scroll;
+    margin: 0;
+    position: absolute;
+    margin-top: 120px;
+    left: 50%;
+    right: -50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    display: block;
+	white-space: nowrap;
+}
+
+.clean-text {
+	margin-top: 75px;
+	font-family: arial;
+	font-weight: 800;
+	line-height: 30%;
+	text-align: center;
+	font-size: 32px;
+
+
+}
+
+
+
