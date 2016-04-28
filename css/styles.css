@@ -23,17 +23,17 @@
 }
 
 .buy-button {
-	width: 180px;
+	width: 220px;
 	height: 30px;
 	border: 3px solid black;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	border-radius: 10;
+	overflow: hidden;
 }
 
 
 #election-button, .buy-button {
-	overflow-x: scroll;
     margin: 0;
     position: absolute;
     top: 180px;
@@ -56,24 +56,24 @@
 
 .buy-button {
 	top: 360px;
-	box-shadow: 0 0 20px 2px rgba(0,0,0,0.3);
+	box-shadow: 0 0 20px 2px rgba(0,0,0,0.2);
 	transition: box-shadow 0.3s ease-in-out;
 	position: absolute;
 }
 
 .buy-button:hover {
-  box-shadow: 0 0 20px 5px rgba(0,0,0,0.4);
-/*  width: 184.5px;
-  height: 30.75px;
+  box-shadow: 0 0 20px 5px rgba(0,0,0,0.3);
+	width: 225.5px;
+	height: 30.75px;
 
-  transform: scale(1.05, 1.05);*/
+  /*transform: scale(1.05, 1.05);*/
 }
 
-/*.buy-button:hover #buy-button-text {
+.buy-button:hover #buy-button-text {
 	font-size: 24.6px;
-	margin-top: 2.05px;
+	margin-top: 3px;
 }
-*/
+
 
 
 
